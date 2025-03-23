@@ -28,7 +28,9 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Button',
+    label: "Button Text",
+    backgroundColor: "#2f0a0a",
+    size: "large"
   },
 };
 
@@ -50,4 +52,11 @@ export const Small: Story = {
     size: 'small',
     label: 'Button',
   },
+};
+
+export const MyStory: Story = {
+  args: {
+    primary: false,
+    label: "Button"
+  }
 };
