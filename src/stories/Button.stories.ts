@@ -28,9 +28,7 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: "Button Text",
-    backgroundColor: "#2f0a0a",
-    size: "large"
+    label: "Button",
   },
 };
 
@@ -54,9 +52,16 @@ export const Small: Story = {
   },
 };
 
-export const MyStory: Story = {
+export const GreenButton: Story = {
   args: {
-    primary: false,
-    label: "Button"
+    backgroundColor: 'green',
+    label: "Green Button"
   }
 };
+
+GreenButton.argTypes = {
+  backgroundColor: {
+    control: 'inline-radio',
+    options: ['pink', 'orange', 'yellow', 'green']
+  }
+}
