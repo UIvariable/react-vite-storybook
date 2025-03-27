@@ -1,0 +1,23 @@
+.storybook-logo {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.storybook-logo svg {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.storybook-logo span {
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 0 6px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.storybook-logo a { 
+    color: #333;
+    text-decoration: none;
+}
+

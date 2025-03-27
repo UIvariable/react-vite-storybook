@@ -7,10 +7,16 @@
   line-height: 1;
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 .storybook-button--primary {
   background-color: #555ab9;
   color: white;
 }
+
+.storybook-button--primary:hover {
+  background-color: #6f73be;
+}
+
 .storybook-button--secondary {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
   background-color: transparent;

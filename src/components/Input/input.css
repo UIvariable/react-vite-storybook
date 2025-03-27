@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+  
+.custom-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+}
+  
+.custom-input.error {
+    border-color: red;
+}
+  
+.error-message {
+    flex: 1;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

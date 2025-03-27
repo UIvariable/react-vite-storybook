@@ -1,0 +1,27 @@
+
+@media (min-width: 320px) {
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .custom-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .subscribe-form {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
